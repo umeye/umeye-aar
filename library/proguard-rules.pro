@@ -9,5 +9,6 @@
 -keep class com.yuv.** { *; }
 -keep class com.tool.websocket.** { *; }
 -keep class com.alibaba.fastjson.** { *; }
+-keep class com.context.UmeyeApplication { *; }
 -dontwarn org.apache.commons.**
 -dontwarn com.jcraft.jsch.**
